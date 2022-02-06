@@ -1,0 +1,31 @@
+.maninPage{
+    background:#edfcf7;
+    background-size: contain;
+    background-blend-mode: overlay;
+    height: 100vh;
+}
+
+.childernContainer{
+    background: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 1px solid #f3f3f3;
+}
+.search{
+    border-radius: 30px !important;
+}
+
+.logo{
+    margin-left: 2%;
+}
+
+.profileDropdown{
+    margin-right: 2%;
+}
+.navPositionFix{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}

@@ -1,0 +1,51 @@
+.modalConfirm {
+ background-color: #00ab8e;
+ border: 1px solid #00ab8e;
+ border-radius: 15px;
+}
+.modalConfirm:hover {
+  background-color: #00ab8e;
+  border: 1px solid #00ab8e;
+ }
+ 
+
+.modal-content{
+  border-radius: 20px;
+}
+
+.crosssign {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.crosssign_circle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #ffcb46;
+  border-radius: 11px;
+  left: 0;
+  top: 0;
+}
+
+.crosssign_stem,
+.crosssign_stem2 {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.crosssign_stem {
+  width: 2px;
+  height: 15px;
+}
+
+.crosssign_stem2 {
+  width: 15px;
+  height: 2px;
+}

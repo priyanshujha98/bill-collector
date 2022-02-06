@@ -1,0 +1,87 @@
+@import "../pages/login.scss";
+@import "../pages/loader.scss";
+@import "../pages/baseLayout.scss";
+@import "../pages/table.scss";
+@import "../pages/status.scss";
+@import "../pages/pagination.scss";
+@import "../pages/list.scss";
+@import "../pages/modal.scss";
+@import "../pages/functionpage.scss";
+
+.alignCenterText{
+    text-align: center;
+}
+.alignCenterTextWk{
+    text-align: -webkit-center;
+}
+
+.alignCenterSelf{
+    align-self: center;
+}
+.alignCenterSelfWk{
+    align-self: -webkit-center;
+}
+.justifySpaceEvenly{
+    justify-content: space-evenly;
+}
+.justifySpaceBetween{
+    justify-content: space-between !important;
+}
+.br-20{
+    border-radius: 20px;
+}
+
+.formError{
+    margin-left: 10px;
+    color: #ec5b6a;
+}
+
+.content{
+    padding: 2rem;
+    margin-left: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.noWrap{
+    white-space: nowrap;
+}
+.verticalAlignWBM{
+    vertical-align: -webkit-baseline-middle;
+}
+
+.addArgumentM-8{
+    margin-left: 8rem !important;
+}
+
+.addArgumentM-9{
+    margin-left: 9rem !important;
+}
+.alignEndText{
+    text-align: end;
+}
+.alignStartText{
+    text-align: start;
+}
+.functionDone{
+    color: #00AB8E;
+}
+.functionCancel{
+    color: #ed220d;
+}
+
+.overlayScroll{
+    margin-top: 30px;
+    overflow: auto;
+    height: calc(100vh - 15vh);
+    overflow-x: hidden;
+}
+.ml-3{
+    margin-left: 1rem !important;
+}
+
+.marginAuto{
+    margin: auto;
+}

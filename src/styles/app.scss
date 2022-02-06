@@ -1,0 +1,14 @@
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Import of common scss
+@import "./common/common.scss";
+
+// Import Media Query
+@import "./mediaQuery.scss";
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: hidden; 
+  }

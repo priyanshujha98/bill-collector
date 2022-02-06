@@ -1,0 +1,40 @@
+.table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.table__th--bgcolor {
+    background-color: #e5e5e5;
+    color: #5f667d;
+}
+
+.transform-arrow{
+    transform: rotate(180deg);
+}
+.transition-arrow{
+    transition: transform 0.4s ease 0s;
+}
+
+.table-wrap {
+    word-wrap: break-word;
+    min-width: 160px;
+    max-width: 160px;
+    white-space: normal;
+}
+
+.svg-s15{
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #EBF8FC;
+  }
+
+  .tableActions{
+      display:inline-table;
+  }
+
+  table > tbody > tr>td{
+      overflow: auto;
+  }

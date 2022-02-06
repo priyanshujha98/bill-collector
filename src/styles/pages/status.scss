@@ -1,0 +1,20 @@
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #00ab8e;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+  }
+.dot-pending {
+    height: 15px;
+    width: 15px;
+    background-color: #ffcb46;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.statusText{
+    vertical-align: -webkit-baseline-middle;
+}
