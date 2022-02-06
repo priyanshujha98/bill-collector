@@ -17,7 +17,7 @@ export const OutComponent = () => {
     })
 
     const billAction = useSelector((state)=>state?.bill?.result)
-
+    
     return(
         <React.Fragment>
             <Formik

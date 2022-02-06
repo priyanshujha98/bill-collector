@@ -3,7 +3,7 @@ import axios from "./instances/axiosInstance"
 class LocationService{
     getAllLocation = async ()=>{
         try {
-            const response = await axios.get(`/getLocations`)
+            const response = await axios.get(`/get-locations`)
             return response
         } catch (error) {
             throw error

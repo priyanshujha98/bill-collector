@@ -36,8 +36,10 @@ export const InComponent = () => {
     const dispatch = useDispatch()
 
     useEffect(()=>{
-        dispatch(actions.getAllLocation())
-    },[])
+        if(profile){
+            dispatch(actions.getAllLocation())
+        }
+    },[profile])
 
     useEffect(()=>{
         return()=>{
