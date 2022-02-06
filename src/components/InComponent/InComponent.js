@@ -11,18 +11,6 @@ import { BillComponent } from './BillComoponent';
 
 export const InComponent = () => {
 
-    const dispatch = useDispatch()
-
-    useEffect(()=>{
-        dispatch(actions.getAllLocation())
-    },[])
-
-    useEffect(()=>{
-        return()=>{
-            dispatch(actions.resetBillAdd())
-        }
-    },[])
-
     const profile = useSelector((state)=>state?.login?.result)
     const locationRecord = useSelector((state)=>state?.locationReducer?.result)
     const billAction = useSelector((state)=>state?.bill)
@@ -44,6 +32,18 @@ export const InComponent = () => {
         people_count: yup.number().required("No of people required"),
         location_id: yup.number().required("Please select a location")
     })
+
+    const dispatch = useDispatch()
+
+    useEffect(()=>{
+        dispatch(actions.getAllLocation())
+    },[])
+
+    useEffect(()=>{
+        return()=>{
+            dispatch(actions.resetBillAdd())
+        }
+    },[])
 
     return(
         <React.Fragment>

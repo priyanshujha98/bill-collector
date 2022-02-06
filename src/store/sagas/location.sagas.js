@@ -34,7 +34,7 @@ const updateLocations = async (payload) => {
 function* dispatchGetAllLocation(action) {
     try {
       yield put({ type: actions.API_FETCHING });
-      const response = yield call(getAllLocation);
+      const response = yield call(getAllLocation,);
   
       if (response?.data?.success) {
         yield put({
